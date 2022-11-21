@@ -11,6 +11,14 @@
 		BC2189FB292B420B005C27A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2189FA292B420B005C27A3 /* ContentView.swift */; };
 		BC2189FD292B420C005C27A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2189FC292B420C005C27A3 /* Assets.xcassets */; };
 		BC218A01292B420C005C27A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC218A00292B420C005C27A3 /* Preview Assets.xcassets */; };
+		BC218A08292B44D7005C27A3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC218A07292B44D7005C27A3 /* SignUpView.swift */; };
+		BC218A0B292B4577005C27A3 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC218A0A292B4577005C27A3 /* CustomButtonStyle.swift */; };
+		BC218A48292B4EA6005C27A3 /* NiveauGroteskBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC218A47292B4EA6005C27A3 /* NiveauGroteskBold.ttf */; };
+		BC218A50292B5A60005C27A3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC218A4F292B5A60005C27A3 /* Montserrat-Thin.ttf */; };
+		BC218A54292B641E005C27A3 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC218A53292B641E005C27A3 /* View + Extension.swift */; };
+		BC218A56292B6D5F005C27A3 /* VerifyPhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC218A55292B6D5F005C27A3 /* VerifyPhoneNumberView.swift */; };
+		BC218A58292BAA96005C27A3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC218A57292BAA96005C27A3 /* Montserrat-Bold.ttf */; };
+		BC218A5A292BB2D6005C27A3 /* CardStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC218A59292BB2D6005C27A3 /* CardStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,15 @@
 		BC2189FC292B420C005C27A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2189FE292B420C005C27A3 /* DripNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DripNote.entitlements; sourceTree = "<group>"; };
 		BC218A00292B420C005C27A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC218A07292B44D7005C27A3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		BC218A0A292B4577005C27A3 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		BC218A46292B4DE8005C27A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BC218A47292B4EA6005C27A3 /* NiveauGroteskBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiveauGroteskBold.ttf; sourceTree = "<group>"; };
+		BC218A4F292B5A60005C27A3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		BC218A53292B641E005C27A3 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		BC218A55292B6D5F005C27A3 /* VerifyPhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberView.swift; sourceTree = "<group>"; };
+		BC218A57292BAA96005C27A3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		BC218A59292BB2D6005C27A3 /* CardStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,11 @@
 		BC2189F7292B420B005C27A3 /* DripNote */ = {
 			isa = PBXGroup;
 			children = (
+				BC218A52292B63F2005C27A3 /* Extensions */,
+				BC218A51292B5C2D005C27A3 /* Authentication */,
+				BC218A46292B4DE8005C27A3 /* Info.plist */,
+				BC218A0C292B4A85005C27A3 /* Fonts */,
+				BC218A09292B4518005C27A3 /* CustomControls */,
 				BC2189F8292B420B005C27A3 /* DripNoteApp.swift */,
 				BC2189FA292B420B005C27A3 /* ContentView.swift */,
 				BC2189FC292B420C005C27A3 /* Assets.xcassets */,
@@ -67,6 +89,42 @@
 				BC218A00292B420C005C27A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC218A09292B4518005C27A3 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				BC218A0A292B4577005C27A3 /* CustomButtonStyle.swift */,
+				BC218A59292BB2D6005C27A3 /* CardStyleView.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		BC218A0C292B4A85005C27A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC218A57292BAA96005C27A3 /* Montserrat-Bold.ttf */,
+				BC218A4F292B5A60005C27A3 /* Montserrat-Thin.ttf */,
+				BC218A47292B4EA6005C27A3 /* NiveauGroteskBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BC218A51292B5C2D005C27A3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BC218A07292B44D7005C27A3 /* SignUpView.swift */,
+				BC218A55292B6D5F005C27A3 /* VerifyPhoneNumberView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BC218A52292B63F2005C27A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC218A53292B641E005C27A3 /* View + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +185,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC218A58292BAA96005C27A3 /* Montserrat-Bold.ttf in Resources */,
 				BC218A01292B420C005C27A3 /* Preview Assets.xcassets in Resources */,
+				BC218A48292B4EA6005C27A3 /* NiveauGroteskBold.ttf in Resources */,
 				BC2189FD292B420C005C27A3 /* Assets.xcassets in Resources */,
+				BC218A50292B5A60005C27A3 /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC218A5A292BB2D6005C27A3 /* CardStyleView.swift in Sources */,
 				BC2189FB292B420B005C27A3 /* ContentView.swift in Sources */,
+				BC218A0B292B4577005C27A3 /* CustomButtonStyle.swift in Sources */,
+				BC218A08292B44D7005C27A3 /* SignUpView.swift in Sources */,
+				BC218A54292B641E005C27A3 /* View + Extension.swift in Sources */,
 				BC2189F9292B420B005C27A3 /* DripNoteApp.swift in Sources */,
+				BC218A56292B6D5F005C27A3 /* VerifyPhoneNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -269,17 +337,19 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DripNote/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -307,17 +377,19 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DripNote/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
